@@ -89,7 +89,7 @@ nav {
 	width:100%;
 	background-color:#02c4ff;
 	display:flex;
-	justify-content:center;
+	justify-content: center;
 	align-items:center;
 }
 
@@ -103,13 +103,22 @@ nav a{
 nav a:hover{
 	color:#02c4ff;
 	background-color:black;
-	padding: 5px 15px;
 	border-radius:5%;
+}
+
+.links{
+	display:flex;
+	justify-content:space-evenly;
+	width:80%;
+}
+
+.logoCont{
+	display:flex;
+	align-items: center;
 }
 
 /* background images */
 .nav-image{
-	margin-left: 3%;
 	background-image: url(../img/logo.png);
 	vertical-align: middle;
 	width: 183px;
@@ -123,11 +132,7 @@ nav a:hover{
 .nav-image a:hover{
 	background-color:transparent !important;
 }
-.header-image{
-	background-image: url(../img/header-img.png);
-	background-repeat:no-repeat;
-	height: 379px;
-}
+
 .middle-image{
 	background-image:url(../img/mid-page-accent.jpg);
 	height: 250px;
@@ -306,13 +311,21 @@ li{
 
 /* Media Queries */
 
+
+/* Tablet View */
 @media (max-width:800px){
 
+   
 }
 
+
+/* Mobile View */
 @media (max-width:500px){
-    
+
 }
+
+
+/* Services Section CSS */
 @media (max-width: 1024px) {
 	section{
 		margin: 5% 0%;
