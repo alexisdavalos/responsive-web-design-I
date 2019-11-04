@@ -133,11 +133,6 @@ nav a:hover{
 	background-color:transparent !important;
 }
 
-.middle-image{
-	background-image:url(../img/mid-page-accent.jpg);
-	height: 250px;
-	background-size:contain;
-}
 /* Section Styles */
 section{
 	text-align:center;
@@ -336,13 +331,55 @@ li{
 		padding: 0;
 		width:90%;
 	}
+	p{
+		width:100%;
+	}
    
 }
 
 
 /* Mobile View */
 @media (max-width:500px){
+	nav{
+		padding: 0;
+	}
+	nav a{
+		border-top: 1px solid black;
+		border-radius: 0px;
+		margin: 0;
+	}
+	nav a:hover{
+		color:white;
+		background-color:black;
+		border-radius:0%;
+	}
+	
+	nav a:last-child{
+		border-bottom: 1px solid black;
+	}
+	.links{
+		display:flex;
+		flex-direction:column;
+	}
+	.section-two{
+		flex-direction: column;
+	}
+	.feature-box{
+		width:100%;
+	}
+	.section-three{
+		flex-direction:column;
+	}
+	.services-box{
+		width:100%;
+	}
 
+	footer p{
+		margin: 5% 0;
+	}
+	.logoCont{
+		padding: 5%;
+	}
 }
 
 
