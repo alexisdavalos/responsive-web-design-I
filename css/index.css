@@ -101,7 +101,7 @@ nav a{
 }
 
 nav a:hover{
-	color:#02c4ff;
+	color:white;
 	background-color:black;
 	border-radius:5%;
 }
@@ -154,12 +154,12 @@ section{
 	padding-bottom:1%;
 }
 .section-two{
-	border-top: 1px solid black;
+	border-top: 2px solid black;
 	display:flex;
 }
 .section-three{
 	display:flex;
-	border-bottom:1px solid black;
+	border-bottom:2px solid black;
 }
 
 .image-section img{
@@ -192,11 +192,11 @@ section{
 }
 /* Button Styles */
 .button{
-	background-color: #02c4ff;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 10px 44px;
 	text-align: center;
-	border: solid 2px white;
+	border: solid 2px black;
 	margin-top:15px;
 	text-decoration: none;
 	font-size: 20px;
@@ -206,9 +206,9 @@ section{
 }
 
 .button:hover{
-	background-color:white;
-	color: #02c4ff;
-	border: solid 2px #02c4ff;
+	background-color:black;
+	color: white;
+	border: solid 2px black;
 
 }
 
@@ -314,7 +314,28 @@ li{
 
 /* Tablet View */
 @media (max-width:800px){
-
+	nav{
+		flex-direction: column-reverse;
+		position: relative;
+		padding-top: 5%;
+		background-color:white;
+	}
+	.links{
+		width: 100%;
+	}
+	.links a{
+		color: gray;
+	}
+	.header-image{
+		display:none;
+	}
+	.box{
+		width:100%;
+	}
+	.container{
+		padding: 0;
+		width:90%;
+	}
    
 }
 
