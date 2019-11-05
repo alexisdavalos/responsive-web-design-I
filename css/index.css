@@ -165,7 +165,7 @@ section{
 .box{
 
 	margin: 0% 5%;
-	width:30%;
+	width:50%;
 	vertical-align:middle;
 	
 }
@@ -334,6 +334,13 @@ li{
 	p{
 		width:100%;
 	}
+	.services-box{
+		margin:2% 2%;
+	}
+	.feature-box{
+		margin: 2% 2%;
+	}
+	
    
 }
 
